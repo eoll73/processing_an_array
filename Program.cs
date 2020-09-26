@@ -41,7 +41,7 @@ namespace processing_an_array
 
             // Find the minimum element of the array
             int[] a = new int[] { 5, 12, 13, 2, 1, 9, 15, 19, 6 };
-            int min = 0;
+            int min = a[0];
             for (int i = 0; i < a.Length; i++)
             {
                 if (min > a[i])
